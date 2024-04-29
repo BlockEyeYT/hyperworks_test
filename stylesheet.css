@@ -155,7 +155,7 @@ h3 {
 	height: 50vh;
 	width: 100%;
 	background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
-	url("../img/background.png") no-repeat center center;
+	url("img/bg.png") no-repeat center center;
 	background-size: cover;
 	text-align: center;
 
@@ -314,12 +314,16 @@ hr {
 
 .owner,
 .manager,
+.leadtester{
+	padding: 12px;
+}
 .dev {
 	padding: 12px;
 }
 
 .owner {background-color: rgba(244, 65, 65, .5);}
 .manager {background-color: rgba(66, 134, 244, .5);}
+.leadtester {background-color: rgba(245, 151, 88, 0.647);}
 .dev {background-color: rgba(59, 211, 42, .5);}
 
 /* Announcement */
@@ -332,7 +336,7 @@ hr {
 .an-img {
 	width: 100%;
 	background: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.35)),
-	url("img/background.png") no-repeat center center;
+	url("img/bg.png") no-repeat center center;
 	background-size: cover;
 	background-attachment: fixed;
 	padding: 100px 50px;
